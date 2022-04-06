@@ -1,0 +1,165 @@
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .header {
+    align-items: normal;
+  }
+  .header__container {
+    justify-content: space-between;
+    padding: 24px 12px;
+    z-index: 100;
+  }
+  .header__nav {
+    display: none;
+    z-index: 100;
+  }
+  .header__nav-list {
+    display: flex;
+    flex-direction: column;
+    background-color: #fcf5ee;
+    width: 360px;
+    max-width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+  }
+  .header__nav-item {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  .header__nav-item-link {
+    font-size: 2rem;
+    position: relative;
+    top: -14px;
+  }
+  .header__menu-mobile {
+  }
+  .header__menu-mobile-icon {
+    font-size: 30px;
+    color: var(--primary-color);
+  }
+
+  /* Slider */
+  .slider__info {
+      width: unset;
+      margin-right: 0;
+      padding: 0 8px;
+  }
+  .slider__info-title {
+      font-style: 5rem;
+      line-height: 5rem;
+  }
+
+  /* section about */
+  .slider-about {
+    width: 100%;
+    margin: 100px 0;
+    padding: 0 8px;
+  }
+  .slider-about-description {
+      
+  }
+  .slider-about-logo {
+    display: none;
+  }
+  .slider-about-logo-mobile {
+    display: block;
+    margin: 0 auto;
+  }
+  .content__slider {
+    display: none;
+  }
+  .content__slider-mobile {
+    display: block;
+  }
+
+  .section-heading {
+    margin: 0;
+  }
+  .section-service-item {
+    margin: 12px 12px;
+  }
+  .section-quote-client-des {
+    padding: 0 18px;
+  }
+  .section-team-staff {
+    margin: 40px 0;
+  }
+  .section-appointment-img {
+    display: none;
+  }
+  .appointment-form-container {
+    width: unset;
+    padding: 12px;
+  }
+  .contact-wrap {
+    flex-direction: column;
+    padding: 0 12px;
+  }
+  .contact-input-form {
+    min-width: unset;
+  }
+  .contact-input-btn {
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .footer-nav {
+    display: none;
+  }
+  .footer-social {
+    margin: 20px 0;
+  }
+  .footer-text {
+    font-size: 12px;
+    margin: 0;
+  }
+}
+
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width: 768px) and (max-width: 1024px) {
+  #main {
+    overflow: visible;
+  }
+  .slider__info {
+    margin: 0;
+  }
+  .section-heading {
+    margin: 0;
+  }
+  .slider-about {
+    max-width: 100%;
+    padding: 0 8px;
+  }
+  .section-quote-client-container {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .section-appointment-img {
+    display: none;
+  }
+  .appointment-form-container {
+    width: 820px;
+    max-width: 100%;
+    padding: 30px 20px;
+  }
+  .m-3 {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* PC low */
+@media (min-width: 1024px) {
+  .header__menu-mobile {
+    display: none;
+  }
+}

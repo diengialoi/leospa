@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: roboto, arial, helvetica;
+    line-height: 1.6rem;
+}
+
+:root {
+    --text-color: #333333;
+    --text-nav-color: #263a41;
+    --primary-color: #ff817e;
+    --description-text-color: #a8a8a8;
+    --transition-smooth: all ease-in 0.3s;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
